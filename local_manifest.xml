@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+          
+  <remote name="rockstar5495"
+          fetch="https://github.com/rockstar5495" />
+
+  <!-- Sync trees -->
+        <project path="device/xiaomi/sweet" name="device_xiaomi_sweet-miui" remote="rockstar5495" revision="colt11" clone-depth="1" />
+        <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet-miui" remote="rockstar5495" revision="11" clone-depth="1" />
+        <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet-epsilon" remote="rockstar5495" revision="11" clone-depth="1" />
+
+</manifest>
