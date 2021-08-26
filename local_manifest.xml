@@ -8,5 +8,9 @@
         <project path="device/xiaomi/sweet" name="device_xiaomi_sweet-miui" remote="rockstar5495" revision="colt11" clone-depth="1" />
         <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet-miui" remote="rockstar5495" revision="11" clone-depth="1" />
         <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet-epsilon" remote="rockstar5495" revision="11" clone-depth="1" />
+          
+  <!-- System Repos -->
+        <project path="frameworks/base" name="platform_frameworks_base" remote="rockstar5495" revision="c11" clone-depth="1" />
+        <project path="system/core" name="platform_system_core" remote="rockstar5495" revision="c11" clone-depth="1" /> 
 
 </manifest>
