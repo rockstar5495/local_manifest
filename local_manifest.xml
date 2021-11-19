@@ -25,10 +25,9 @@
         <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="ArrowOS-Devices" revision="arrow-12.0" clone-depth="1" />
           
   <!-- Remove Repos -->
-        <project path="device/qcom/sepolicy-legacy-um" name="device/qcom/sepolicy-legacy-um" remote="Spark Os" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="hardware/qcom-caf/msm8996/audio" remote="Spark Os" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8996/display" name="hardware/qcom-caf/msm8996/display" remote="Spark Os" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8996/media" name="hardware/qcom-caf/msm8996/media" remote="Spark Os" clone-depth="1" />
+        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_media" />
  
   <!-- System Repos -->
         <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="Octavi-OS" revision="12" clone-depth="1" />
