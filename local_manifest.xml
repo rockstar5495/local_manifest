@@ -25,9 +25,9 @@
         <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="ArrowOS-Devices" revision="arrow-12.0" clone-depth="1" />
           
   <!-- Remove Repos -->
-        <remove-project name="android_hardware_qcom_audio" />
-        <remove-project name="android_hardware_qcom_display" />
-        <remove-project name="android_hardware_qcom_media" />
+        <remove-project name="platform/hardware/qcom/audio" />
+        <remove-project name="platform/hardware/qcom/display" />
+        <remove-project name="platform/hardware/qcom/media" />
  
   <!-- System Repos -->
         <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="Octavi-OS" revision="12" clone-depth="1" />
