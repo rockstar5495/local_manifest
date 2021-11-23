@@ -26,6 +26,6 @@
         <project path="device/octavi/sepolicy" name="device_octavi_sepolicy" remote="rockstar5495" revision="o12" clone-depth="1" />
 
   <!-- Remove repos -->
-        <remove-project path="platform_device_octavi_sepolicy" />
+        <remove-project name="platform_device_octavi_sepolicy" />
           
 </manifest>
