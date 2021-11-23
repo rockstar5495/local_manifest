@@ -23,6 +23,6 @@
           
   <!-- System Repos -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
-        <project path="device/octavi/sepolicy" name="device_octavi_sepolicy" remote="rockstar5495" revision="o12" clone-depth="1" />
+        <project path="device/octavi/sepolicy" name="device-octavi-sepolicy" remote="rockstar5495" revision="o12" clone-depth="1" />
       
 </manifest>
